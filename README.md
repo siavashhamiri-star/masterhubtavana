@@ -1,15 +1,20 @@
-# Tavana Creation House (سرای آفرینش توانا)
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-هسته‌یِ مرکزیِ اکوسیستمِ دیجیتالِ "شهرِ توانا". این پروژه برای مدیریتِ خودکار، دپلوی و سازماندهیِ اپلیکیشن‌ها در محیط‌هایِ محدود (موبایل/Termux) طراحی شده است.
+# Run and deploy your AI Studio app
 
-## اهداف:
-- خلقِ یک تمدنِ دیجیتالِ خودکفا.
-- دپلویِ خودکارِ پروژه‌ها بدونِ نیاز به کامپیوترِ دسکتاپ.
-- استفاده از معماریِ "سه‌گالری" برای مدیریتِ منابع.
+This contains everything you need to run your app locally.
 
-## وضعیت:
-این پروژه به صورتِ خود-دپلوی (Self-Deployable) طراحی شده است تا به عنوانِ یک "مدیرِ شهر" بر رویِ بسترهایِ ابری فعالیت کند.
+View your app in AI Studio: https://ai.studio/apps/9e94b62b-ca06-4ebc-887f-d391c42cf5e1
 
-## راهنما:
-برایِ شروعِ دپلویِ خودکار، از اسکریپتِ `deploy.sh` در محیطِ ترموکس استفاده کنید.
+## Run Locally
 
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

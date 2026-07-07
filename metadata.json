@@ -1,0 +1,6 @@
+{
+  "name": "Tavana Master Hub",
+  "description": "سرای آفرینش و سرپناه تمدنی توانا - خانه جهانی، هاب و کارپورت‌های استقرار آزاد و محترمانه اپلیکیشن‌های وب، اندروید و iOS",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
